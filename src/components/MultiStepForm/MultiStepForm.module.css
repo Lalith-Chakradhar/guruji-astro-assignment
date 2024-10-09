@@ -1,0 +1,26 @@
+.formContainer {
+    width: 100%;
+    width: 25rem;
+    margin: auto;
+    padding: 2rem 3rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  @media (max-width: 25rem) {
+    .formContainer {
+      padding: 10px;
+    }
+  }
+  
